@@ -1,3 +1,11 @@
+/*
+Question: print out number in following pattern:
+1
+22
+333
+4444
+55555
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
