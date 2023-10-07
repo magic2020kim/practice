@@ -12,11 +12,11 @@ Question: print out number in following pattern:
 int i, j;
 
 int main() {
-  for (i=1;i<=6;i++){
-    for(j=1; j<=i; j++){
-      printf("%d", i);
+  for (i=1;i<6;i++){ //print number 1 -> 5
+    for(j=1; j<=i; j++){ // loop repetative with respective num: 1 = loop 1 time, 2 = loop 2 time
+      printf("%d", i); //print number
     }
-    printf("\n");
+    printf("\n"); //print next row
   }
-  return 0;
+  return 0; //exit code
 };
